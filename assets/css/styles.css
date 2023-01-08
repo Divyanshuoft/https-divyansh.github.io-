@@ -1,6 +1,12 @@
 /*===== GOOGLE FONTS =====*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
 /*===== VARIABLES CSS =====*/
+html{
+  /* background-image: url('https://cutewallpaper.org/cdn-cgi/mirage/dd19f2d06ebc24f541f142b37b4289ffa7de722a7607e39984c5c6dd4ce8defd/1280/21/white-background-gif/Abstract-Grey-DNA-Molecular-Structure-Animated-Background-.gif'); */
+  background-position: center;
+  /* background-repeat: no-repeat; */
+  background-size: contain;
+}
 :root {
   --header-height: 3rem;
   --font-semi: 600;
@@ -161,11 +167,11 @@ html{
     transition: .5s;
   }
 }
-.home__title :hover{
+/* .home__title :hover{
 color:rgb(0, 0, 0);
 /* text-decoration: solid; */
-text-shadow: rgb(255, 255, 255);
-}
+/* text-shadow: rgb(255, 255, 255);
+} */ */
 .nav__item {
   margin-bottom: var(--mb-4);
 }
@@ -222,6 +228,10 @@ text-shadow: rgb(255, 255, 255);
   padding: 4rem 0 5rem;
 }
 
+.nav__logo{
+  color:rgb(0, 97, 224)
+}
+
 .home__data {
   align-self: center;
 }
@@ -233,7 +243,7 @@ text-shadow: rgb(255, 255, 255);
 }
 
 .home__title-color {
-  color: var(--first-color);
+  color:rgb(0, 97, 224)
   /* size: ; */
   /* text-align: right; */
 }
@@ -440,14 +450,16 @@ text-shadow: rgb(255, 255, 255);
   overflow: hidden;
 }
 
-.work__img img {
+.work__img {
   transition: 1s;
 }
 
-.work__img img:hover {
+.work__img:hover {
   transform: scale(1.1);
+  opacity: 90;
 }
 
+/* .Projects */
 /* ===== CONTACT =====*/
 .contact__input {
   width: 100%;
