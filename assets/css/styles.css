@@ -167,6 +167,8 @@ html{
     transition: .5s;
   }
 }
+.col{
+ color: rgb(0, 79, 250)  ;}
 /* .home__title :hover{
 color:rgb(0, 0, 0);
 /* text-decoration: solid; */
@@ -379,6 +381,20 @@ color:rgb(0, 0, 0);
   margin-bottom: var(--mb-4);
 }
 
+.links_c{
+  text-align: center;
+}
+
+.new7{
+  text-align: center;
+  align-content: center;
+  margin-top: -175px;
+  font-size: small;
+}
+
+/* .new8{
+  align-items: center;
+} */
 #skills {
   /* display: flex; */
   /* justify-content: space-between; */
