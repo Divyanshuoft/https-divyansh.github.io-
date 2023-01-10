@@ -11,6 +11,11 @@ const showMenu = (toggleId, navId) =>{
 }
 showMenu('nav-toggle','nav-menu')
 
+function menuToggle() {
+    const toggleMenu = document.querySelector(".menu");
+    toggleMenu.classList.toggle("active");
+  }
+
 function myf() {
     var element = document.body;
     element.classList.toggle("dark-mode");
