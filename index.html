@@ -20,10 +20,14 @@
         <!--===== HEADER =====-->
         <header class="l-header">
             <nav class="nav bd-grid">
+                
                 <div>
-                    <a href="#" class="nav__logo">Divyansh Kachchhava</a>
+                    <button onclick="myf()" class = "x" id="myBtn3"><i class='bx bx-moon' ></i></button>
                 </div>
-
+                <div>
+                    <a href="#" class="nav__logo">Divyansh Kachchhava </a>
+                    
+                </div>
                 <div class="nav__menu" id="nav-menu">
                     <ul class="nav__list">
                         <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
@@ -32,7 +36,7 @@
                         <li class="nav__item"><a href="#skills." class="nav__link">Skills</a></li>
                         <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
                         <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
-                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                        
                     </ul>
                 </div>
 
@@ -51,10 +55,10 @@
                             <a href="" class="typewrite" data-period="1000" data-type='[ "Hello", "Namaste!", "Bonjour!", "Hola!", "Márhaban!","Nǐn hǎo!", "Konnichiwa!", "Hallo", "Assalam u alaikum","Annyeong"]'>
                               <span class="wrap"></span>
                             </a>
-                           , I'm <span class="home__title-color"><br>Divyansh</span><br>Kachchhava</h1>
-                           <h1 class="home__title"><a href="" class="typewrite" data-period="500" data-type='["Software Engineer", "Software Developer", "Front-end Developer", "Back-end Developer", "Full-Stack Engineer"]'>
+                           , I'm <span class="home__title-color"><br>Divyansh</span><br>Kachchhava</h1><br>
+                           <!-- <h1 class="home__title"><a href="" class="typewrite" data-period="500" data-type='["Software Engineer", "Software Developer", "Front-end Developer", "Back-end Developer", "Full-Stack Engineer"]'>
                             <span class="wrap"></span><br>
-                          </a></h1><br>
+                          </a></h1><br> -->
                     <a href="mailto:divyansh.kachchhava@mail.utoronto.ca" class="button">Contact <i class='bx bx-envelope'></i></a>
                     <a href="DivyanshKachchhava.pdf" target="_blank"class="button">Download Resume <i class='bx bxs-download'></i></a>
 
@@ -81,16 +85,11 @@
                         </g>
                     </svg>
                 </div>
-                <!-- <img class="new7" src = "https://thumbs.gfycat.com/EmbarrassedWelldocumentedIraniangroundjay-max-1mb.gif"> -->
-
             </section>
-
-            <!-- <section class="about section">
-            </section><h3 class="new7" >Scroll Down <i class='bx bx-down-arrow-alt'></i></h3> -->
-            <!-- <img class="new7" src = "https://thumbs.gfycat.com/EmbarrassedWelldocumentedIraniangroundjay-max-1mb.gif"> -->
-
             <!--===== ABOUT =====-->
+            
             <section class="about section " id="about">
+
                 <h2 class="section-title">About <i class='bx bx-code-alt'></i></h2>
 
                 <div class="about__container bd-grid">
@@ -255,7 +254,7 @@
             <!--===== WORK =====-->
                         <!--===== WORK =====-->
                         <section class="work section" id="Projects">
-                            <h2 class="section-title">Projects <i class='bx bxs-cube-alt' ></i></h2>
+                            <h2 class="section-title">Projects<i class='bx bxs-cube-alt' ></i></h2>
             
                             <div class="work__container bd-grid">
                                 <figure>
@@ -263,9 +262,19 @@
                                         <img src="https://cdn.dribbble.com/users/2508569/screenshots/6251877/co.gif" alt="" class="work__img"></a>
                                     <figcaption>
                                         <br>
-                                        <b><span class="col">Course Planner App</span></b>
-                                        <br>
-                                        <p>An app which can help students to plan their degree and generate a timetable so that students can take the target courses in sequence</p>
+                                        <b><span class="col">Course Planner App</span></b><br>
+                                        
+                                        <span class="col2">Java, Kotlin, Firebase, Android Studio, Git, Figma</span>
+                                        <p>
+                                            An app which can help students to plan their degree and generate a timetable so that students can take the target courses in sequence
+<span id="dots">...</span><span id="more"> Pioneered and lead a team of 5 developers to make an app using Java/Kotlin which can help students to plan their
+    degree and generate a timetable so that students can finish their degree as early as possible
+    <br>Efficiently utilized Firebase to keep track of 100k+ courses and 100k+ users information and performed unit testing
+    using Mockito and Junit after refactoring code in MVP pattern
+    <br>As a Scrum Master, I was responsible for managing team of 5 developers in the Agile development and efficiently
+    utilized GitHub data to show collaboration. Received 100% contribution marks for the project</span></p>
+
+                                            <button onclick="myFunction()" class = "b" id="myBtn">Read more</button>
                                     </figcaption>
                                   </figure>
                                   <figure>
@@ -276,8 +285,16 @@
                                         <figcaption>
                                             <br>
                                         <b><span class="col">Carbon Cam App</span></b>
-                                        <br>
-                                        <p>An app which helps to find the amount of time it takes for materials to decompose, simply by allowing users to take pictures of objects</p>
+                                        <br><span class="col2">Java, Kotlin, Firebase, Android Studio, Flask and Tensorflow</span>
+                                        <p>An app which helps to find the amount of time it takes for materials to decompose, simply by allowing users to take pictures of objects
+<span id="dots2">...</span><span id="more2"> An app made using Java/Kotlin which helps to find the amount of time it takes for materials to decompose and
+    perform back-tracking and forward-tracking, simply by allowing users to take pictures of objects
+    <br>Utilized a SVC model to train the ML algorithm for comparing 700+ objects/images and hosted trained model
+    with Flask onto the cloud using Heroku Integrated an API with postman
+    <br>Allowed for 95%-98% transfer of information between an android application and the cloud server. The app make
+    use of Machine Learning and Neural Network</span></p>
+
+                                            <button onclick="myFunction2()" class = "b" id="myBtn2">Read more</button>
                                     </figcaption>
                                         </figcaption>
 
@@ -289,12 +306,17 @@
                                     <figcaption>
                                         <br>
                                         <b><span class="col">Personal desktop assistant</span></b>
-                                        <br>
-                                        <p>A Python script which can help the user to do anything by just saying, privacy and security is improved by adding face recognition</p>
+                                        <br><span class="col2">Python Script</span>
+                                        <p>A Python script which can help the user to do anything by just saying, privacy and security is improved by adding face recognition with 90% accuracy,
+                                            <span id="dots3">...</span><span id="more3"> it can perform 20+ functionalities which includes sending emails, Optical Text Recognition, Dynamic News
+                                                Reporting at any time with API integration by using API powered by Google's machine learning technology
+                                                <br>Performs various functionality with just a simple voice command up to a distance of 10m, with 90%-95% accuracy</span></p>
+                                            
+                                                                                        <button onclick="myFunction3()" class = "b" id="myBtn3">Read more</button>
                                     </figcaption>
                                   </figure>
                             </div>
-
+                            <br><Br>
                             <h2 class="section-title">Course Projects <i class='bx bx-hive'></i></h2>
             
                             <div class="work__container bd-grid">
@@ -304,7 +326,7 @@
                                     <figcaption>
                                         <br>
                                         <b><span class="col">GRAFFIT</span></b>
-                                        <br>
+                                        <br><span class="col2">Graph Model Application</span>
                                         <p>Programmed a social media network called GRAFFIT where users keep track of friends, and the brands users are interested in using graph network in C</p>
                                     </figcaption>
                                   </figure>
@@ -316,7 +338,8 @@
                                         <figcaption>
                                             <br>
                                         <b><span class="col">Trees Everywhere</span></b>
-                                        <br>
+                                        <br><span class="col2">BST Application</span>
+
                                         <p>Used the Binary Search Tree functionalities like, insertion, deletion, tree modification, and searching to implement an image analysis tool called Quadtree in C</p>
                                     <!-- </figcaption> -->
                                         </figcaption>
@@ -329,7 +352,7 @@
                                     <figcaption>
                                         <br>
                                         <b><span class="col">Tutle Graphics</span></b>
-                                        <br>
+                                        <br><span class="col2">Linked List Application</span>
                                         <p>Implemented all the standard functionality of the linked list and developed functions that takes the current list of commands and executes to produce images to display</p>
                                     </figcaption>
                                   </figure>
@@ -371,71 +394,6 @@
             </section>
 
             <!--===== WORK =====-->
-            <section class="skills section"  id="projects">
-                <h2 class="section-title">Projects</h2>
-                <div class="skills__container bd-grid">          
-                    <div>
-                        <div class="skills__data" id="skills">
-                            <h3>Course Planner android application</h3>
-                            <p><span class="col">Java, Kotlin, Firebase, Android Studio and Figma</span><br>
-                            I pinoeered and lead a team of 5 developers to make an app which can help students to plan their degree and generate a timetable so that students can take the any course which they want in the most efficient sequence possible. As a Scrum Master, I was responsible for managing the Agile development. Recieved 100% contribution marks</p>
-
-                            <h3>Carbon Cam android application
-                            </h3>
-                            <p><span class="col">Java, Kotlin, Firebase, Android Studio, TensorFlow, TensorFlow Lite, Heroku, Flask and Figma used in making the app</span>
-                                <br>
-                                An app which helps to find the amount of time it takes for materials to decompose, simply by allowing users to take pictures of objects.  Utilized a SVC model to train the ML algorithm
-                                Hosted the trained model with Flask onto the cloud using Heroku
-                                Integrated an API with postman and allowed for transfer of information between an android application and the cloud server
-                            </p>
-
-                            <h3>Personal AI assistant for laptop
-                            </h3>                 
-                            <ul>
-                                <span class="col">Personal Assistant built using python libraries</span> It does almost anything which includes sending emails, Optical Text Recognition, Dynamic News Reporting at any time with API integration, Todo list generator, Opens any website with just a voice command, Plays Music, Wikipedia searching, Dictionary with Intelligent Sensing i.e. auto spell checking…
-                            </ul> 
-
-                            <h3>Personal portofolio website
-                            </h3>                 
-                            <ul>
-                            Built a personal portofolio website using HTML, CSS, SCSS and JavaScript to showcase my skills and qaulifiacations. 
-                            </ul>
-            
-                        </div>
-                </div>
-                <div>              
-                    <!-- <img src = "https://agencypartner.com/wp-content/uploads/2022/05/91382-web-development.gif"  alt="skills gif" class="skills__img"> -->
-                    <img src="https://fairchanceforcrm.com/wp-content/uploads/2021/01/sales-manager-openings.gif" alt="work photo" class="skills__img">
-                    <img src="https://www.expert.ai/wp-content/uploads/2022/01/hybrid.png" alt="work photo" class="skills__img">
-
-                </div>
-            </section>
-
-            <!--===== COURSE WORK =====-->
-            <section class="skills section"  id="work">
-                <h2 class="section-title">Course Projects</h2>
-                <div class="skills__container bd-grid">          
-                    <div>
-                        <div class="skills__data" id="skills">
-                            <h3><span class="col">GRAFFIT</span></h3>
-                            <ul>
-                                Programmed a social media network called GRAFFIT where users keep track of friends, and the brands users are interested in using graph network in C
-                            </ul><br>
-                            <h3><span class="col">Trees Everywhere</span></h3>
-                            <ul>
-                                Used the Binary Search Tree functionalities like, insertion, deletion, tree modification, and searching to implement an image analysis tool called Quadtree in C
-                            </ul><br>
-                            <h3><span class="col">Tutle Graphics</span></h3>
-                            <ul>
-                                Implemented all the standard functionality of the linked list and developed functions that takes the current list of commands and executes to produce images to display in C
-                            </ul><br>
-                        </div>
-                </div>
-                <div>              
-                    <img src = "https://cdn-images-1.medium.com/fit/t/1600/480/1*VMmvImch6VU5pc2VktY1uw.gif"  alt="skills gif" class="skills__img">
-                    <!-- <img src="assets/img/work.jpg" alt="work photo" class="skills__img"> -->
-                </div>
-            </section>
             <!--===== CONTACT =====-->
             <section class="contact section" id="contact">
                 <h2 class="section-title">Contact</h2>
@@ -463,9 +421,9 @@
         <footer class="footer">
             <p class="footer__title">Divyansh Kachchhava</p>
             <div class="footer__social">
-                <a href="#" class="footer__icon"><i class='bx bxl-linkedin'></i></a>
-                <a href="#" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
-                <a href="#" class="footer__icon"><i class='bx bxl-twitter' ></i></a>
+                <a href="https://www.linkedin.com/in/divyansh-kachchhava-09b265228/" class="footer__icon"><i class='bx bxl-linkedin'></i></a>
+                <a href="mailto:divyansh.kachchhava@mail.utoronto.ca" class="footer__icon"><i class='bx bxs-envelope'></i></a>
+                <a href="https://github.com/Divyanshuoft" class="footer__icon"><i class='bx bxl-github' ></i></a>
             </div>
             <p class="footer__copy">&#169; Divyansh Kachchhava</p>
         </footer>
