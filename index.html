@@ -1,6 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap"
+          rel="stylesheet"
+        />
+        <link
+          href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+          rel="stylesheet"
+        />
+        <link rel="stylesheet" href="styles.css" />
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -22,13 +36,44 @@
             <nav class="nav bd-grid">
                 
                 <div>
-                                        <button onclick="myf()" class = "x"><i class='bx bx-moon' ></i></button>
+                    <button onclick="myf()" class = "x"><i class='bx bx-moon' ></i></button>
+                    <button onclick="menuToggle()" class = "x"><i class='bx bx-user'></i></button>
+                    <div class="action">
 
+                        <div class="menu">
+                          <h3>Divyansh Kachchhava<br /><span>Software Developer</span></h3>
+                          <ul>
+                            <li>
+                                <a href="https://www.linkedin.com/in/divyansh-kachchhava-09b265228/"><i class='bx bxl-linkedin'></i> Linkedin</a>
+                            </li>
+                            <li>
+                                <a href="mailto:divyansh.kachchhava@mail.utoronto.ca" ><i class='bx bxs-envelope'></i> Mail</a>
+
+                            </li>
+                            <li>
+                                <a href="https://github.com/Divyanshuoft" ><i class='bx bxl-github' ></i> Github</a>
+                            </li>
+                            <li>
+                                <a href="!"><i class='bx bx-phone' ></i> 437-981-0507</a>
+                                
+                            </li>
+                            <li>
+                                <a href="!" ><i class='bx bx-location-plus' ></i> Toronto</a></li>
+                                <!-- <a href="https://github.com/Divyanshuoft" ><i class='bx bx-location-plus' ></i> Toronto</a> -->
+
+                            <li>
+                                <a href="!" ><i class='bx bxs-log-out'></i> Logut</a></li>
+
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
                 </div>
                 <div>
                     <a href="#" class="nav__logo">Divyansh Kachchhava </a>
                     
                 </div>
+                
                 <div class="nav__menu" id="nav-menu">
                     <ul class="nav__list">
                         <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
@@ -45,34 +90,56 @@
                     <i class='bx bx-menu'></i>
                 </div>
             </nav>
+
         </header>
 
         <main class="l-main">
             <!--===== HOME =====-->
             <section class="home bd-grid" id="home">
                 <div class="home__data">
-                    <h1 class="home__title">
-                                                    <a href="" class="typewrite" data-period="1000" data-type='[ "Hello", "Namaste!", "Bonjour!", "Hola!","Nǐn hǎo!", "Konnichiwa!", "Hallo!","Annyeong!"]'>
+                    <div class="action">
 
+                    <div class="menu">
+                      <h3>Divyansh Kachchhava<br /><span>Software Developer</span></h3>
+                      <ul>
+                        <li>
+                            <a href="https://www.linkedin.com/in/divyansh-kachchhava-09b265228/" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+                        </li>
+                        <li>
+                          <img src="./assets/icons/edit.png" /><a href="#">Edit profile</a>
+                        </li>
+                        <li>
+                          <img src="./assets/icons/envelope.png" /><a href="#">Inbox</a>
+                        </li>
+                        <li>
+                          <img src="./assets/icons/settings.png" /><a href="#">Setting</a>
+                        </li>
+                        <li><img src="./assets/icons/question.png" /><a href="#">Help</a></li>
+                        <li>
+                          <img src="./assets/icons/log-out.png" /><a href="#">Logout</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                    <h1 class="home__title">
+                        
+                            <a href="" class="typewrite" data-period="1000" data-type='[ "Hello", "Namaste!", "Bonjour!", "Hola!","Nǐn hǎo!", "Konnichiwa!", "Hallo!","Annyeong!"]'>
                               <span class="wrap"></span>
                             </a>
                            , I'm <span class="home__title-color"><br>Divyansh</span><br>Kachchhava</h1><br>
                            <!-- <h1 class="home__title"><a href="" class="typewrite" data-period="500" data-type='["Software Engineer", "Software Developer", "Front-end Developer", "Back-end Developer", "Full-Stack Engineer"]'>
                             <span class="wrap"></span><br>
                           </a></h1><br> -->
-                    <a href="mailto:divyansh.kachchhava@mail.utoronto.ca" class="button">Contact <i class='bx bx-envelope'></i></a>
+                    <a onclick="menuToggle()" class="button">Contact <i class='bx bx-envelope'></i></a>
                     <a href="DivyanshKachchhava.pdf" target="_blank"class="button">Download Resume <i class='bx bxs-download'></i></a>
 
                 </div>
-
+                  
                 <div class="home__social">
                     <a href="https://www.linkedin.com/in/divyansh-kachchhava-09b265228/" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
                     <a href="mailto:divyansh.kachchhava@mail.utoronto.ca"class="home__social-icon"><i class='bx bxs-envelope'></i></a>
-                    <!-- <a href="" class="home__social-icon"><i class='bx bxl-behance' ></i></a> -->
                     <a href="https://github.com/Divyanshuoft" class="home__social-icon"><i class='bx bxl-github' ></i></a>
-                    <!-- <a href="" class="home__social-icon"><i class='bx bx-phone' ></i></a>
-                    <a href="" class="home__social-icon"><i class='bx bx-location-plus' ></i></a> -->
-                    <!-- <box-icon type='solid' name='envelope'></box-icon> -->
+                    <!-- <a href="https://github.com/Divyanshuoft" class="home__social-icon"><i class='bx bxl-github' ></i></a> -->
                 </div>
 
                 <div class="home__img">
