@@ -2,7 +2,7 @@
 Watch it live: https://divyanshuoft.github.io/https-divyansh.github.io-/
 
 # Divyansh Kachchhava Portfolio
-Description
+## Description
 This repository contains the portfolio of Divyansh Kachchhava, a computer science student at the University of Toronto. The portfolio showcases his education, skills, work experience, and projects.
 
 Contents
