@@ -11,9 +11,10 @@ images/ - A directory containing the images used in the website
 README.md - The file you are currently reading
 ## Installation
 Clone the repository to your local machine using the following command:
-bash
+``` css
 Copy code
 git clone https://github.com/<username>/divyanshkachchhava-portfolio.git
+```
 Open index.html in your web browser to view the portfolio website.
 ## Usage
 The portfolio website can be used to learn more about Divyansh Kachchhava's education, skills, work experience, and projects. Users can also download his resume and contact him through the website.
