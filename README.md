@@ -12,7 +12,6 @@ README.md - The file you are currently reading
 ## Installation
 Clone the repository to your local machine using the following command:
 ``` css
-Copy code
 git clone https://github.com/<username>/divyanshkachchhava-portfolio.git
 ```
 Open index.html in your web browser to view the portfolio website.
